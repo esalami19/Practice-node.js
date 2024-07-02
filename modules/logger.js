@@ -1,4 +1,4 @@
-let url = "http://mylogger.io/log"
+//let url = "http://mylogger.io/log"
 
 export function log (message){
     console.log(message)

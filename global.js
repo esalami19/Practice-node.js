@@ -1,4 +1,4 @@
-import { log } from "./logger";
+import { log } from "./modules/logger.js";
 
 // this ./ to signify current folder 
 // this ../ parent folder 
@@ -8,4 +8,8 @@ return `hiya ${name}, how you doing?`
 }
 
 console.log(greeting('lii'))
-console.log(log)
+log("hiya")
+
+
+//npm init -y 
+//npm install
