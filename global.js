@@ -8,9 +8,11 @@ console.log(pathName)
 
 const osTMemory = os.totalmem
 const osFMemory = os.freemem
+const osStuff = os.type
 console.log(
     `Free memory is: ${osFMemory}
      Total memory is: ${osTMemory}
+     Os type is: ${osStuff}
     `)
 
 // this ./ to signify current folder 
